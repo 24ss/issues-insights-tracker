@@ -81,20 +81,11 @@ APScheduler worker ┘
 3. Node deps → **Playwright e2e**  
 4. Docker image build
 
-Status badge  
-![CI](https://github.com/your-org/tracker25/actions/workflows/ci.yml/badge.svg)
-
 ---
 
-## Netlify (bonus)
+## Bonus :
 
-`frontend/dist` auto‑deployed on Netlify. Redirect rule if backend on another domain:
-
-```
-/api/* https://api.yourdomain.com/:splat  200
-```
-
----
+1) Added Darkmode/Lightmode toggle
 
 ## Trade‑Offs
 
@@ -102,6 +93,3 @@ Status badge
 * **APScheduler vs Celery** – lighter stack.
 * **Numeric dashboard** – no SSR chart issues.
 
----
-
-Happy shipping 🚀
