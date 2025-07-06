@@ -12,7 +12,6 @@ Lightweight portal for receiving file‑based feedback (bug reports, invoices, i
 | Tests      | Pytest (≥ 80 %) + Playwright e2e |
 | CI         | GitHub Actions |
 | Docker     | Single `docker-compose up` |
-| Hosting    | Frontend static build auto‑deployed on **Netlify** |
 
 ---
 
