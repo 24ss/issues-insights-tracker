@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.build/
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Uploads
+backend/uploads/
+
+# Environment
+*.env
+
+# Coverage
+htmlcov/
+coverage.xml
